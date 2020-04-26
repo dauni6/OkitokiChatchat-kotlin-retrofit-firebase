@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/chatUserListLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/grid_x2"
+            app:cardCornerRadius="@dimen/standard_corner_radius">
+
+            <ImageView
+                android:id="@+id/chatRoomThumbNail"
+                android:layout_width="@dimen/standard_image_width"
+                android:layout_height="@dimen/standard_image_height"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_user"/>
+
+        </androidx.cardview.widget.CardView>
+
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chatRoomTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/grid_x3" />
+
+            <TextView
+                android:id="@+id/chatRoomLastMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/chatRoomTitle"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/chatRoomLastMessageTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/grid_x2"
+                android:textSize="@dimen/grid_x3"
+                android:textColor="@color/colorPrimaryDark" />
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "843911928011",
+    "firebase_url": "https://okitokichatchat.firebaseio.com",
+    "project_id": "okitokichatchat",
+    "storage_bucket": "okitokichatchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843911928011:android:6e353ef214a5f6b4ac634e",
+        "android_client_info": {
+          "package_name": "com.chat.okitokichatchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843911928011-hfud5piiuhssgr6hcjmogqemfnah8puc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxi76TRAYht4fuokeqU9CRwrX6c7kwQFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843911928011-hfud5piiuhssgr6hcjmogqemfnah8puc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

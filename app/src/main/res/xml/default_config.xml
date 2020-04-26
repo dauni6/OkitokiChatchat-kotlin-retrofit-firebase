@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>splash_background</key>
+        <value>#bbbbbb</value>
+    </entry>
+    <entry>
+        <key>splash_message_caps</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>splash_message</key>
+        <value>알림 메세지를 작성해 주세요.</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->
